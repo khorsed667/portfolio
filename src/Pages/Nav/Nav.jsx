@@ -24,7 +24,7 @@ const Nav = () => {
             <AiOutlineMenu></AiOutlineMenu>
           </span>
 
-          <ul className="nav-link" style={getMenuStyle(openMenu)}>
+          <ul className="nav-link mt-3" style={getMenuStyle(openMenu)}>
             <li>
               <a href="#about">About</a>
             </li>
@@ -32,7 +32,7 @@ const Nav = () => {
               <a href="#projects">Projects</a>
             </li>
             <li>
-              <a>Resume</a>
+              <a href="./developer-resume.pdf" download>Resume</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
