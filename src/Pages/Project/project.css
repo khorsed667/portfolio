@@ -1,5 +1,5 @@
 .first-project-img{
-    background: url(./sportofia.png);
+    background: url(./../../../public/sportofia.png);
     background-size: cover;
     transition: ease-in-out 3s;
     background-position: top;
@@ -22,7 +22,7 @@
     width: 50%;
 }
 .second-project-img{
-    background: url(./toyman.png);
+    background: url(./../../../public/toyman.png);
     background-size: cover;
     transition: ease-in-out 3s;
     background-position: top;
@@ -36,7 +36,7 @@
     background-position: bottom;
 }
 .third-project-img{
-    background: url(./homyz.png);
+    background: url(./../../../public/homyz.png);
     background-size: cover;
     transition: ease-in-out 3s;
     background-position: top;
