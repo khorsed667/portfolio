@@ -1,0 +1,43 @@
+.social>:nth-child(1){
+    color: black;
+    font-size: 1.5rem;
+    margin: 0px 5px;
+}
+.social>:nth-child(2){
+    color: black;
+    font-size: 1.5rem;
+    margin: 0px 5px;
+}
+.social>:nth-child(3){
+    color: black;
+    font-size: 1.5rem;
+    margin: 0px 5px;
+}
+.skill-img> img{
+    font-size: 1.2rem;
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+}
+.skill-img{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.skill-section{
+    display: flex;
+    padding-left: 1.5rem;
+}
+
+@media (max-width: 780px) {
+    .b-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .left-container{
+        width: 100%;
+    }
+    .skill-section{
+        flex-direction: column;
+    }
+}

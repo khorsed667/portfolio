@@ -1,0 +1,33 @@
+[
+    {
+      "serviceName": "Frontend Development",
+      "img": "./frontend.jpg",
+      "details": "Crafting engaging user interfaces using modern front-end technologies for a seamless user experience."
+    },
+    {
+      "serviceName": "Backend Development",
+      "img": "./backend.jpg",
+      "details": "Building robust and scalable server-side applications, handling data management and business logic."
+    },
+    {
+      "serviceName": "Responsive Design",
+      "img": "./responsive.jpg",
+      "details": "Creating visually appealing and user-friendly designs that adapt to different devices and screen sizes."
+    },
+    {
+      "serviceName": "Web Development",
+      "img": "./web.jpg",
+      "details": "Bringing ideas to life by developing dynamic and interactive websites with cutting-edge technologies."
+    },
+    {
+      "serviceName": "Maintenance and Support",
+      "img": "./maintenance.jpg",
+      "details": "Providing ongoing support, bug fixes, and updates to ensure the smooth functioning of your applications."
+    },
+    {
+      "serviceName": "Collaboration and Project Management",
+      "img": "./collab.jpg",
+      "details": "Ensuring effective teamwork, timely communication, and efficient project management for successful outcomes."
+    }
+  ]
+  

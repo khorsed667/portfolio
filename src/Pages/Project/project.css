@@ -1,0 +1,65 @@
+.first-project-img{
+    background: url(./sportofia.png);
+    background-size: cover;
+    transition: ease-in-out 3s;
+    background-position: top;
+    width: 50%;
+    height: 400px;
+}
+.first-project-img>img{
+    height: 400px;
+}
+.first-project-img:hover{
+    background-position: bottom;
+}
+
+.single-p{
+    padding: 5px 0px;
+    display: flex;
+    gap: 15px;
+}
+.project-text{
+    width: 50%;
+}
+.second-project-img{
+    background: url(./toyman.png);
+    background-size: cover;
+    transition: ease-in-out 3s;
+    background-position: top;
+    width: 50%;
+    height: 400px;
+}
+.second-project-img>img{
+    height: 400px;
+}
+.second-project-img:hover{
+    background-position: bottom;
+}
+.third-project-img{
+    background: url(./homyz.png);
+    background-size: cover;
+    transition: ease-in-out 3s;
+    background-position: top;
+    width: 50%;
+    height: 400px;
+}
+.third-project-img>img{
+    height: 400px;
+}
+.third-project-img:hover{
+    background-position: bottom;
+}
+@media (max-width:780px) {
+    .second-project{
+        flex-direction: column-reverse !important;
+    }
+    .single-p{
+        flex-direction: column;
+    }
+    .first-project-img, .third-project-img, .second-project-img{
+        width: 100%;
+    }
+    .project-text{
+        width: 100%;
+    }
+}

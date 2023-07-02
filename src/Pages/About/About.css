@@ -1,0 +1,24 @@
+.a-container{
+    display: flex;
+}
+.about-left{
+    width: 50%;
+}
+.about-right{
+    width: 50%;
+    margin-top: 5px;
+}
+.primaryText{
+    text-align: justify;
+}
+@media (max-width:780px) {
+    .a-container{
+        flex-direction: column;
+    }
+    .about-left{
+        width: 100%;
+    }
+    .about-right{
+        width: 100%;
+    }
+}
