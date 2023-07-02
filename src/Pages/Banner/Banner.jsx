@@ -37,16 +37,6 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="skill-section container-width blackText">
-        <span>Skilled In |</span>
-        <div className="skill-img">
-          <img className="" src="./html.png" alt="" />
-          <img src="./css.png" alt="" />
-          <img src="./javascript.png" alt="" />
-          <img src="./react.png" alt="" />
-          <img src="./nodejs.png" alt="" />
-        </div>
-      </div>
     </section>
   );
 };

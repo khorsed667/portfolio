@@ -43,6 +43,12 @@
   font-weight: bold;
 }
 
+.whiteText {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
 .smBlackText {
   font-size: 1.5rem;
   color: black;

@@ -1,0 +1,29 @@
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0px 35px;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+@media (max-width:780px) {
+    .skills{
+        display: grid;
+        gap: 1px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+    }
+}
