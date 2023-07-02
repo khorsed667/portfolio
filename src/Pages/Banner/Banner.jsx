@@ -20,15 +20,21 @@ const Banner = () => {
             </span>
           </div>
           <div className="social flex flex-row py-5">
-            <button>
-              <FaGithub></FaGithub>
-            </button>
-            <button>
-              <FaLinkedin></FaLinkedin>
-            </button>
-            <button>
-              <FaFacebook></FaFacebook>
-            </button>
+            <a href="https://github.com/khorsed667">
+              <button>
+                <FaGithub></FaGithub>
+              </button>
+            </a>
+            <a href="https://www.linkedin.com/in/khorsed-alam-18b9b5280/">
+              <button>
+                <FaLinkedin></FaLinkedin>
+              </button>
+            </a>
+            <a href="https://www.facebook.com/jaljalalioal.ekram?mibextid=ZbWKwL">
+              <button>
+                <FaFacebook></FaFacebook>
+              </button>
+            </a>
           </div>
         </div>
         <div className="right-container">

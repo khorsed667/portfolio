@@ -83,7 +83,7 @@ const Skill = () => {
             <p>Firebase</p>
           </div>
         </div>
-        <div>
+        <div className="my-3">
             <a href="./developer-resume.pdf" download className="resume-button cursor-pointer font-extrabold">Download Resume</a>
         </div>
       </div>
