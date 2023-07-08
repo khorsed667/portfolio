@@ -3,7 +3,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import "./Nav.css";
 
 const Nav = () => {
-  const [openMenu, setOpenMenu] = useState(true);
+  const [openMenu, setOpenMenu] = useState(false);
 
   const getMenuStyle = (openMenu) => {
     if (document.documentElement.clientWidth <= 800) {
