@@ -10,12 +10,12 @@ const Banner = () => {
         <div className="left-container mt-10">
           <div className="b-heading ">
             <span className="blackHeadingText text-heading">
-              MERN Stack <br /> Developer
+              Junior Front-end <br /> Developer
             </span>
           </div>
           <div className="b-intro">
             <span className="primaryText intro">
-              I am Khorsed Alam, A junior MERN stack developer from Jessore,
+              I am Khorsed Alam, A junior Front-end developer from Jessore,
               Bangladesh. <br />
             </span>
           </div>
