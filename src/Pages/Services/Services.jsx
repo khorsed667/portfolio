@@ -5,11 +5,11 @@ const Services = () => {
     console.log(services);
 
     return (
-        <section className="s-wrapper my-5">
+        <section className="s-wrapper my-5 max-w-screen-xl mx-auto">
             <div className="s-container paddings container-width flex flex-col items-center">
                 <div className="heading-text text-center my-4 w-2/3">
                     <p className='blackText'>My Services</p>
-                    <p className='primaryText'>As a MERN stack developer, My goal  is to ensure best <span>user exprience</span> with a best <span>user interface</span> that will meet the needs of users.</p>
+                    <p className='primaryText text-center'>As a MERN stack developer, My goal  is to ensure best <span>user exprience</span> with a best <span>user interface</span> that will meet the needs of users.</p>
                 </div>
                 <div className="service-section grid md:grid-cols-2 gap-5">
                     {
@@ -19,10 +19,10 @@ const Services = () => {
                             <div className="s-img flex justify-center items-center">
                                 <img className='w-[200px] h-[140px]' src={item.img} alt="image" />
                             </div>
-                            <div className="s-name smBlackText">
+                            <div className="s-name smBlackText text-center">
                                 <span>{item.serviceName}</span>
                             </div>
-                            <div className="s-details primaryText">
+                            <div className="s-details primaryText text-center">
                                 <span>{item.details}</span>
                             </div>
                         </div>)

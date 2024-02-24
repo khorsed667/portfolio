@@ -1,5 +1,5 @@
 .first-project-img{
-    background: url(./../../../public/sportofia.png);
+    background: url(./../../../public/bistro_boss.png);
     background-size: cover;
     transition: ease-in-out 3s;
     background-position: top;
@@ -22,7 +22,7 @@
     width: 50%;
 }
 .second-project-img{
-    background: url(./../../../public/toyman.png);
+    background: url(./../../../public/sportofia.png);
     background-size: cover;
     transition: ease-in-out 3s;
     background-position: top;

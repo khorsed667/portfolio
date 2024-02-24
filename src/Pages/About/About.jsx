@@ -2,7 +2,7 @@ import './About.css'
 
 const About = () => {
   return (
-    <section id='about' className="a-wrapper my-5">
+    <section id='about' className="a-wrapper my-5 max-w-screen-xl mx-auto">
       <div className="a-container paddings container-width">
         <div className="about-left">
           <img className="w-full" src="./about.jpg" alt="" />

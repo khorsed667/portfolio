@@ -5,17 +5,17 @@ import { FaFacebook } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <section className="b-wrapper">
-      <div className="container-width paddings b-container flex justify-between w-full">
+    <section className="b-wrapper max-w-screen-xl mx-auto">
+      <div className="container-width paddings b-container flex justify-between items-center w-full">
         <div className="left-container mt-10">
           <div className="b-heading ">
             <span className="blackHeadingText text-heading">
-              Junior Front-end <br /> Developer
+              Junior MERN Stack <br /> Developer
             </span>
           </div>
           <div className="b-intro">
             <span className="primaryText intro">
-              I am Khorsed Alam, A junior Front-end developer from Jessore,
+              I am Khorsed Alam, A junior MERN Stack developer from Jessore,
               Bangladesh. <br />
             </span>
           </div>

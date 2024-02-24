@@ -2,6 +2,7 @@ import {
   FaBootstrap,
   FaChrome,
   FaCss3,
+  FaGithub,
   FaHtml5,
   FaReact,
 } from "react-icons/fa";
@@ -22,7 +23,7 @@ import "./Skill.css";
 
 const Skill = () => {
   return (
-    <section className="s-wrapper paddings my-5 container-width">
+    <section className="s-wrapper paddings my-5 max-w-screen-xl mx-auto">
       <div className="s-container flex flex-col justify-center items-center">
         <span className="blackText my-3">My Skills</span>
         <div className="skills">
@@ -77,6 +78,10 @@ const Skill = () => {
           <div className="skill">
             <TbBrandVscode></TbBrandVscode>
             <p>Vs Code</p>
+          </div>
+          <div className="skill">
+            <FaGithub></FaGithub>
+            <p>GitHub</p>
           </div>
           <div className="skill">
             <SiFirebase></SiFirebase>
