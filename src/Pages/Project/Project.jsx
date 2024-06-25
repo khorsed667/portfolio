@@ -8,57 +8,20 @@ const Project = () => {
         <p className="orangeText">
           Discover a showcase of my Innovative Projects.
         </p>
-        <div className="single-p">
-          <div className="first-project-img"></div>
-          <div className="project-text">
-            <div className="flex flex-col">
-              <span className="my-4 blackText">Bistro Boss</span>
-              <p className="primaryText">
-                I've develop Bistro Boss for simplifies the online ordering
-                process for both customers and restaurant staff by using React
-                for frontend and MongoDB/Express.js for backend. Where React
-                Hook Form and React Ten Stack Query managed data efficiently.
-                Tailwind CSS and DeisyUI provided a sleek look. Stripe ensures
-                secure online payments, and Firebase handles user
-                login/authentication and so on... Also an admin is associated to control
-                this site.
-              </p>
-              <div className="project-links py-4 orangeText flex justify-around">
-                <a
-                  className=" hover:text-black"
-                  href="https://bistro-boss-phi.vercel.app/"
-                >
-                  Live Link
-                </a>
-                <a
-                  className=" hover:text-black"
-                  href="https://github.com/khorsed667/Bistro-Boss.git"
-                >
-                  GitHub (Client)
-                </a>
-                <a
-                  className=" hover:text-black"
-                  href="https://github.com/khorsed667/Bistro-Boss-Server.git"
-                >
-                  GitHub (Server)
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr className="my-5" />
         <div className="single-p second-project">
           <div className="project-text">
             <div className="flex flex-col">
-              <span className="my-4 blackText">Sportofia</span>
+              <span className="my-4 blackText">Focus Haven</span>
               <p className="primaryText">
-                This website is based on a summer sports campaign, where anyone
-                can enroll in any sports he/she wants. This website is based on
-                three categories of users. These are students, instructors, and
-                admin. Where admin can make anyone an instructor. An instructor
-                could add any class and the admin can remove or approve this
-                class. Students can enroll in any of the classes through a
-                payment-integrated system.
+                Focus Haven is a website designed for a summer camp school
+                specializing in photography training. It features three
+                different dashboards for students, instructors, and
+                administrators. It allows students to enroll in classes, view
+                enrolled courses, and manage payments. Instructors can add and
+                manage their classes, while Admin oversee class approvals and
+                user roles. Built with modern technologies like React, Vite,
+                Firebase, and Tailwind CSS. The project also includes user
+                authentication, social login, and a responsive design.
               </p>
               <div className="project-links py-4 orangeText flex justify-around">
                 <a
@@ -83,6 +46,45 @@ const Project = () => {
             </div>
           </div>
           <div className="second-project-img"></div>
+        </div>
+        <hr className="my-5" />
+        <div className="single-p">
+          <div className="first-project-img"></div>
+          <div className="project-text">
+            <div className="flex flex-col">
+              <span className="my-4 blackText">Bistro Boss</span>
+              <p className="primaryText">
+                I've develop Bistro Boss for simplifies the online ordering
+                process for both customers and restaurant staff by using React
+                for frontend and MongoDB/Express.js for backend. Where React
+                Hook Form and React Ten Stack Query managed data efficiently.
+                Tailwind CSS and DeisyUI provided a sleek look. Stripe ensures
+                secure online payments, and Firebase handles user
+                login/authentication and so on... Also an admin is associated to
+                control this site.
+              </p>
+              <div className="project-links py-4 orangeText flex justify-around">
+                <a
+                  className=" hover:text-black"
+                  href="https://bistro-boss-phi.vercel.app/"
+                >
+                  Live Link
+                </a>
+                <a
+                  className=" hover:text-black"
+                  href="https://github.com/khorsed667/Bistro-Boss.git"
+                >
+                  GitHub (Client)
+                </a>
+                <a
+                  className=" hover:text-black"
+                  href="https://github.com/khorsed667/Bistro-Boss-Server.git"
+                >
+                  GitHub (Server)
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
         <hr className="my-5" />
         <div className="single-p">
