@@ -26,19 +26,19 @@ const Project = () => {
               <div className="project-links py-4 orangeText flex justify-around">
                 <a
                   className=" hover:text-black"
-                  href="https://toyman-18778.web.app/"
+                  href="https://focus-haven-1.onrender.com"
                 >
                   Live Link
                 </a>
                 <a
                   className=" hover:text-black"
-                  href="https://github.com/khorsed667/ToyMan.git"
+                  href="https://github.com/khorsed667/Focus-Haven.git"
                 >
                   GitHub (Client)
                 </a>
                 <a
                   className=" hover:text-black"
-                  href="https://github.com/khorsed667/ToyMan-server.git"
+                  href="https://github.com/khorsed667/Focus-Haven-Server.git"
                 >
                   GitHub (Server)
                 </a>
