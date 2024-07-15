@@ -14,7 +14,7 @@ const Services = () => {
                 <div className="service-section grid md:grid-cols-2 gap-5">
                     {
                         services.map((item, index) => <div 
-                        className='p-4 hover:shadow-2xl rounded-2xl'
+                        className='p-4 hover:shadow-2xl transition-all duration-500 rounded-2xl'
                         key={index}>
                             <div className="s-img flex justify-center items-center">
                                 <img className='w-[200px] h-[140px]' src={item.img} alt="image" />
