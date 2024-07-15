@@ -49,6 +49,20 @@
 .third-project-img:hover{
     background-position: bottom;
 }
+.fourth-project-img{
+    background: url(./../../../public/movie-clone.jpg);
+    background-size: cover;
+    transition: ease-in-out 3s;
+    background-position: top;
+    width: 50%;
+    height: 400px;
+}
+.fourth-project-img>img{
+    height: 400px;
+}
+.fourth-project-img:hover{
+    background-position: bottom;
+}
 @media (max-width:780px) {
     .second-project{
         flex-direction: column-reverse !important;

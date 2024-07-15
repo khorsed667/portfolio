@@ -87,6 +87,35 @@ const Project = () => {
           </div>
         </div>
         <hr className="my-5" />
+        <div className="single-p second-project">
+          <div className="project-text">
+            <div className="flex flex-col">
+              <span className="my-4 blackText">IMDb Clone</span>
+              <p className="primaryText">
+                IMDb Clone is a clone movie site which build using Next.js. It's
+                runningusint TMDb API's. Here user can toggle between top movies
+                and tranding movies. Also they an search any movies they wanted.
+                Using dynamic routin functionality, Clicking on every movies
+                poster They can vies the details of any movies.
+              </p>
+              <div className="project-links py-4 orangeText flex justify-around">
+                <a
+                  className=" hover:text-black"
+                  href="https://movie-clone-xfj1.vercel.app/"
+                >
+                  Live Link
+                </a>
+                <a
+                  className=" hover:text-black"
+                  href="https://github.com/khorsed667/Movie-Clone"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="fourth-project-img"></div>
+        </div>
         <div className="single-p">
           <div className="third-project-img"></div>
           <div className="project-text">
